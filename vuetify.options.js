@@ -1,4 +1,7 @@
 export default {
+  font: {
+    family: 'lato',
+  },
   theme: {
     dark: true,
     themes: {
