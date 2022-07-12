@@ -1,12 +1,20 @@
 <template>
   <div>
-    <v-app-bar :clipped-left="clipped" fixed app dense class="px-10">
+    <v-app-bar
+      :clipped-left="clipped"
+      fixed
+      app
+      dark
+      dense
+      class="px-10"
+      color="primary"
+    >
       <v-toolbar-title v-text="title" />
       <v-spacer />
       <v-btn text plain>
         <span>about us</span>
       </v-btn>
-      <v-btn  text plain @click.stop="switchTheme()">
+      <v-btn text plain @click.stop="switchTheme()">
         <span>contact us</span>
       </v-btn>
       <v-btn icon @click.stop="switchTheme()">

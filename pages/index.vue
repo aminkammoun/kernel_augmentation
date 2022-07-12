@@ -1,5 +1,5 @@
 <template>
-  <Main />
+  <Main class="overflow-auto" />
 </template>
 <script>
 export default {}
