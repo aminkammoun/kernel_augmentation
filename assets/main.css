@@ -1,15 +1,10 @@
-.theme--dark {
-    color: aqua !important;
-}
-
 .container {
     height: 100%;
 }
 
 .main_container {
-    height: 50%;
-    background-image: url("./IIO7PPZQ4JCHFJIZD76YHOXU7Y.jpg");
-    background-position: center;
+    height: 65%;
+    background-image: url("./CandidOldDuiker-size_restricted.gif");
     background-repeat: no-repeat;
     background-size: cover;
 }

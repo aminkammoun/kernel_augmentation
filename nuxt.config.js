@@ -42,7 +42,7 @@ export default {
   ],
   webfontloader: {
     google: {
-      families: ['Lato:400,700'], //Loads Lato font with weights 400 and 700
+      families: ['Open Sans'], //Loads Lato font with weights 400 and 700
     },
   },
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
