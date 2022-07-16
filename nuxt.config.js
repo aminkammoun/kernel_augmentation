@@ -39,6 +39,7 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
     'nuxt-webfontloader',
+    '@nuxtjs/color-mode',
   ],
   webfontloader: {
     google: {

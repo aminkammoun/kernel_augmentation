@@ -4,10 +4,9 @@
       :clipped-left="clipped"
       fixed
       app
-      dark
       dense
       class="px-10"
-      color="primary"
+      :style="{ background: $vuetify.theme.themes[theme].primary }"
     >
       <v-toolbar-title v-text="title" />
       <v-spacer />
@@ -50,6 +49,15 @@ export default {
     rightDrawer: false,
     title: 'Kernel Augmentation',
   }),
+  computed: {
+    theme() {
+      this.$vuetify.theme.dark
+        ? localStorage.setItem('theme', 'dark')
+        : localStorage.setItem('theme', 'light')
+      localStorage.setItem('theme', this.$vuetify.theme.dark)
+      return this.$vuetify.theme.dark ? 'dark' : 'light'
+    },
+  },
   methods: {
     switchTheme() {
       this.$vuetify.theme.isDark = !this.$vuetify.theme.isDark

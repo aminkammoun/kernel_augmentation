@@ -1,5 +1,5 @@
 <template>
-  <div style="height: 100%" class="surface_base">
+  <div style="height: 100%" :class="$vuetify.theme.themes.surface_base">
     <div class="main_container">
       <div
         style="height: 100%; background-color: rgba(0, 0, 0, 0.61)"
@@ -25,7 +25,13 @@
             services with better performance, quality, and reliability.
           </p>
           <v-btn outlined class="text-capitalize textbase--text">explore</v-btn>
-          <v-btn class="text-capitalize" color="primary">our products</v-btn>
+          <v-btn
+            class="text-capitalize"
+            :color="
+              $vuetify.theme.themes[localStorage.getItem('theme')].textbase
+            "
+            >our products</v-btn
+          >
         </div>
       </div>
     </div>

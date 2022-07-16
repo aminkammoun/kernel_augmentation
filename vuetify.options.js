@@ -6,7 +6,7 @@ export default {
     dark: true,
     themes: {
       dark: {
-        primary: '#0096c7',
+        primary: '#1B1725',
         accent: '#f47a7a',
         secondary: '#829099',
         info: '#2196f3',
@@ -18,7 +18,7 @@ export default {
         textbase: '#edf0f2',
       },
       light: {
-        primary: '#ffffff',
+        primary: '#D0BCD5',
         accent: '#f47a7a',
         secondary: '#a0b9c8',
         info: '#2196f3',

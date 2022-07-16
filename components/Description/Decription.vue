@@ -1,5 +1,5 @@
 <template>
-  <v-row class="pa-10">
+  <v-row class="pa-10" :color="$vuetify.theme.themes.primary">
     <v-col cols="12" md="4" sm="6">
       <v-card>
         <v-card-title>Security</v-card-title>
