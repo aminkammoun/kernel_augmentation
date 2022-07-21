@@ -13,7 +13,7 @@
       <v-btn text plain>
         <span>about us</span>
       </v-btn>
-      <v-btn text plain @click.stop="switchTheme()">
+      <v-btn text plain @click.stop="switchTheme()" to="/contact">
         <span>contact us</span>
       </v-btn>
       <v-btn icon @click.stop="switchTheme()">
