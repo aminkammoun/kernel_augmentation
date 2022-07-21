@@ -8,15 +8,15 @@
       class="px-10"
       :style="{ background: $vuetify.theme.themes[theme].primary }"
     >
-      <v-toolbar-title v-text="title" />
+      <v-toolbar-title v-text="title" to="/" />
       <v-spacer />
-      <v-btn text plain>
+      <v-btn text plain to="/aboutus">
         <span>about us</span>
       </v-btn>
-      <v-btn text plain @click.stop="switchTheme()" to="/contact">
+      <v-btn text plain to="/contact">
         <span>contact us</span>
       </v-btn>
-      <v-btn icon @click.stop="switchTheme()">
+      <v-btn icon>
         <v-icon v-if="!this.$vuetify.theme.isDark"
           >mdi-moon-waning-crescent</v-icon
         >

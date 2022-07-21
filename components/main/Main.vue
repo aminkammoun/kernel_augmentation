@@ -27,9 +27,7 @@
           <v-btn outlined class="text-capitalize textbase--text">explore</v-btn>
           <v-btn
             class="text-capitalize"
-            :color="
-              $vuetify.theme.themes[localStorage.getItem('theme')].textbase
-            "
+            :color="$vuetify.theme.themes['dark'].textbase"
             >our products</v-btn
           >
         </div>
