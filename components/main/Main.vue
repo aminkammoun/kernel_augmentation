@@ -24,10 +24,11 @@
             a pioneer in robot automation industry, will offer products and
             services with better performance, quality, and reliability.
           </p>
-          <v-btn outlined class="text-capitalize textbase--text">explore</v-btn>
+          <v-btn outlined large class="text-capitalize textbase--text mt-5 text-body-1">explore</v-btn>
           <v-btn
-            class="text-capitalize"
-            :color="$vuetify.theme.themes['dark'].textbase"
+          large
+            class="text-capitalize mt-5 text-body-1" 
+            
             >our products</v-btn
           >
         </div>

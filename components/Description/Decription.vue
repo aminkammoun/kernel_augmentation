@@ -1,7 +1,7 @@
 <template>
-  <v-row class="pa-10" :color="$vuetify.theme.themes.primary">
+  <v-row class="pa-10 " :color="$vuetify.theme.themes.primary" >
     <v-col cols="12" md="4" sm="6">
-      <v-card>
+      <v-card class="text-body-1">
         <v-card-title>Security</v-card-title>
         <v-card-text
           >Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum
