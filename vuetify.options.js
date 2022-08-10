@@ -14,7 +14,7 @@ export default {
         error: '#ff5252',
         success: '#11c684',
         background: '#05090c',
-        surface_base: '#111b27',
+        surface_base: '#111111',
         textbase: '#edf0f2',
       },
       light: {

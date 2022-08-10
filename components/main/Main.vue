@@ -1,5 +1,9 @@
 <template>
-  <div style="height: 100%" :class="$vuetify.theme.themes.surface_base">
+  <div
+    style="height: 100%"
+    
+    class="surface_base"
+  >
     <div class="main_container">
       <div
         style="height: 100%; background-color: rgba(0, 0, 0, 0.61)"
@@ -24,17 +28,20 @@
             a pioneer in robot automation industry, will offer products and
             services with better performance, quality, and reliability.
           </p>
-          <v-btn outlined large class="text-capitalize textbase--text mt-5 text-body-1">explore</v-btn>
           <v-btn
-          large
-            class="text-capitalize mt-5 text-body-1" 
-            
+            outlined
+            large
+            class="text-capitalize textbase--text mt-5 text-body-1"
+            >explore</v-btn
+          >
+          <v-btn large class="text-capitalize mt-5 text-body-1"
             >our products</v-btn
           >
         </div>
       </div>
     </div>
     <Decription />
+    <Quote />
   </div>
 </template>
 <script>

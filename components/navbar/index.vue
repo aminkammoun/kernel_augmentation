@@ -4,11 +4,14 @@
       :clipped-left="clipped"
       fixed
       app
-      dense
       class="px-10"
       :style="{ background: $vuetify.theme.themes[theme].primary }"
     >
-      <v-toolbar-title v-text="title" to="/" />
+      <v-toolbar-title
+        v-text="title"
+        to="/"
+        style="font-size: 35px; font-weight: 950"
+      />
       <v-spacer />
       <v-btn text plain to="/aboutus">
         <span>about us</span>
