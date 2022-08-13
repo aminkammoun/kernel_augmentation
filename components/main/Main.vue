@@ -1,9 +1,5 @@
 <template>
-  <div
-    style="height: 100%"
-    
-    class="surface_base"
-  >
+  <div style="height: 100%" class="surface_base">
     <div class="main_container">
       <div
         style="height: 100%; background-color: rgba(0, 0, 0, 0.61)"
@@ -45,11 +41,9 @@
   </div>
 </template>
 <script>
-import Decription from '../Description/Decription.vue'
 export default {
   mounted() {
     console.log(this.$vuetify.theme)
   },
-  components: { Decription },
 }
 </script>

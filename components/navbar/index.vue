@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-app-bar
-      :clipped-left="clipped"
+      elevate-on-scroll
       fixed
       app
       class="px-10"
@@ -14,17 +14,17 @@
       />
       <v-spacer />
       <v-btn text plain to="/aboutus">
-        <span>about us</span>
+        <span class="navbar-span">about us</span>
       </v-btn>
       <v-btn text plain to="/contact">
-        <span>contact us</span>
+        <span class="navbar-span">contact us</span>
       </v-btn>
-      <!-- <v-btn icon>
+      <v-btn icon @click="switchTheme">
         <v-icon v-if="!this.$vuetify.theme.isDark"
           >mdi-moon-waning-crescent</v-icon
         >
         <v-icon v-else>mdi-weather-sunny</v-icon>
-      </v-btn> -->
+      </v-btn>
     </v-app-bar>
   </div>
 </template>

@@ -1,53 +1,150 @@
 :root {
-    --primary: '#000000';
-    --accent: '#f47a7a';
-    --secondary: '#829099';
-    --info: '#2196f3';
-    --warning: '#ffc107';
-    --error: '#ff5252';
-    --success: '#11c684';
-    --background: '#05090c';
-    --surface_base: '#111b27';
-    --textbase: '#edf0f2';
+  --font: 'ABCDiatype', sans-serif;
+  --black: #12100c;
+  --off-black: #191712;
+  --mid-black: #23211e;
+  --light-black: #514f4d;
+  --light-black-hover: #63615e;
+  --dark-grey: #565451;
+  --light-grey: #666564;
+  --slight-grey: #999795;
+  --brand-ripe: #ff8a00;
+  --brand-almost-ripe: #ffae33;
+  --brand-quaternary: #ffbe5c;
+  --brand-light: #ffe4bc;
+  --divider-light: #dadada;
+  --sand-dark: #ece7e5;
+  --sand-light: #f3f1f0;
+  --off-white-1: #f5f4f4;
+  --off-white: #f9f9f9;
+  --white: #fff;
+  --salmon: #ffb0ae;
+  --sand-dark-hover: #f0ecea;
+  --salmon-hover: #ffc0be;
+  --blue: #00a3ff;
+  --green: #218001;
+  --transparent-green: #2180010b;
+  --error: #f51f1f;
+  --transparent-error: #f51f1f0b;
+  --link-grey: #12100c97;
+  --black-hover: #2d2d2d;
+  --brand-gradient: linear-gradient(137.41deg, #ffad33 14.37%, #ff8a00 91.32%);
+  --shadow-slight: 0px 2px 4px var(--off-black);
+  --shadow-highlight: 0px 0px 40px rgba(255, 168, 0, 0.5);
+  --h1: 5rem;
+  --h2: 3.375rem;
+  --h3: 3rem;
+  --h4: 2rem;
+  --h5: 1.75rem;
+  --h6: 1.25rem;
+  --p-large: 1.5rem;
+  --p-medium: 1.125rem;
+  --p-small: 1rem;
+  --p-footer: 0.938rem;
+  --p-xsmall: 0.8125rem;
+  --btn-small: 0.875rem;
+  --fine-print: 0.75rem;
+  --header-height: 5rem;
+  --row-max-width: 87.5rem;
+  --container-normal: 68.75rem;
+  --xx-large: 10rem;
+  --x-huge: 7rem;
+  --huge: 8rem;
+  --x-large: 4.5rem;
+  --large: 4rem;
+  --medium: 3.5rem;
+  --small: 3rem;
+  --x-small: 2rem;
+  --xx-small: 1.5rem;
+  --micro: 1rem;
+  --macro: 0.5rem;
 }
 
 .dark-mode {
-    --primary: '#000000';
-    --accent: '#f47a7a';
-    --secondary: '#829099';
-    --info: '#2196f3';
-    --warning: '#ffc107';
-    --error: '#ff5252';
-    --success: '#11c684';
-    --background: '#05090c';
-    --surface_base: '#111b27';
-    --textbase: '#edf0f2';
+  --primary: '#000000';
+  --accent: '#f47a7a';
+  --secondary: '#829099';
+  --info: '#2196f3';
+  --warning: '#ffc107';
+  --error: '#ff5252';
+  --success: '#11c684';
+  --background: '#05090c';
+  --surface_base: '#111b27';
+  --textbase: '#edf0f2';
 }
 
 .light-mode {
-    --primary: '#fefefe';
-    --accent: '#f47a7a';
-    --secondary: '#a0b9c8';
-    --info: '#2196f3';
-    --warning: '#ffc107';
-    --error: '#ef476f';
-    --success: '#16bf82';
-    --background: '#ffffff';
-    --surface_base: '#f2f5f8';
-    --textbase: '#a0b9c8';
+  --primary: '#fefefe';
+  --accent: '#f47a7a';
+  --secondary: '#a0b9c8';
+  --info: '#2196f3';
+  --warning: '#ffc107';
+  --error: '#ef476f';
+  --success: '#16bf82';
+  --background: '#ffffff';
+  --surface_base: '#f2f5f8';
+  --textbase: '#a0b9c8';
 }
-
+* {
+  font-family: 'ABCDiatype', sans-serif;
+}
+body {
+  font-family: var(--font);
+}
 .container {
-    height: 100%;
+  height: 100%;
 }
 
 .main_container {
-    height: 65%;
-    background-image: url("./CandidOldDuiker-size_restricted.gif");
-    background-repeat: no-repeat;
-    background-size: cover;
+  height: 65%;
+  background-image: url('./CandidOldDuiker-size_restricted.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.quote-container{
-    display: flex;
-    justify-content: center;
+.quote-container {
+  display: flex;
+  justify-content: center;
+}
+.navbar-span {
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+.description-section {
+  background-image: url('../assets/images/Free-trial-dark-1-1.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.description-image {
+  height: 4rem;
+  display: flex;
+  margin: auto;
+  width: 5rem;
+}
+.card-title-description {
+  font-size: var(--h5);
+  line-height: 143%;
+  margin-bottom: var(--macro);
+  color: var(--important);
+  font-weight: 600;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--important);
+  font-weight: 600;
+}
+.card-vue {
+  background-color: var(--mid-black) !important ;
+  border-radius: 1rem !important ;
+  padding-left: var(--x-small) !important ;
+  padding-right: var(--x-small) !important ;
+  padding-bottom: var(--small) !important ;
+  padding-top: var(--small) !important ;
+  max-width: 24rem !important ;
+  margin-bottom: var(--micro) !important ;
+  position: relative !important ;
+  z-index: 0 !important ;
 }
