@@ -95,22 +95,25 @@ body {
   height: 100%;
 }
 
+.nav {
+  background-color: var(--mid-black) !important;
+}
 .main_container {
-  height: 65%;
-  background-image: url('./CandidOldDuiker-size_restricted.gif');
+  background-color: var(--mid-black);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .quote-container {
   display: flex;
   justify-content: center;
+  background-color: var(--mid-black);
 }
 .navbar-span {
   letter-spacing: 1px;
   text-transform: capitalize;
 }
 .description-section {
-  background-image: url('../assets/images/Free-trial-dark-1-1.jpg');
+  background-color: var(--mid-black);
   background-position: center;
   background-size: cover;
 }
@@ -137,7 +140,7 @@ h6 {
   font-weight: 600;
 }
 .card-vue {
-  background-color: var(--mid-black) !important ;
+  background-color: var(--off-black) !important ;
   border-radius: 1rem !important ;
   padding-left: var(--x-small) !important ;
   padding-right: var(--x-small) !important ;
@@ -147,4 +150,10 @@ h6 {
   margin-bottom: var(--micro) !important ;
   position: relative !important ;
   z-index: 0 !important ;
+}
+.main-image {
+  flex: 1;
+  max-width: 700px;
+  padding-left: 70px;
+  padding-top: 20px;
 }

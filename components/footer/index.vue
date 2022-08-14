@@ -1,5 +1,5 @@
 <template>
-  <v-footer app>
+  <v-footer>
     <span>&copy; {{ new Date().getFullYear() }}</span>
   </v-footer>
 </template>
@@ -12,4 +12,10 @@ export default {
 }
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+.footer {
+  bottom: 0;
+  position: sticky;
+  height: auto;
+}
+</style>

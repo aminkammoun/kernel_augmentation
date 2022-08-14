@@ -1,17 +1,10 @@
 <template>
   <div class="quote-container">
     <div>
-      <h1
-        style="
-          color: white;
-          font-weight: 900;
-          font-size: 96px;
-          margin-bottom: 32px;
-        "
-      >
+      <h1 style="font-weight: 900; font-size: 96px; margin-bottom: 32px">
         We believe...
       </h1>
-      <pre >
+      <pre>
         in a commitment to create a reality that relates positively 
         with Mother Nature and contributes to the well-being of the next 
         generations. Let’s engage with each other and do something good today, 

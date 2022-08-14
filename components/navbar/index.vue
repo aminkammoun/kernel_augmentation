@@ -1,12 +1,6 @@
 <template>
   <div>
-    <v-app-bar
-      elevate-on-scroll
-      fixed
-      app
-      class="px-10"
-      :style="{ background: $vuetify.theme.themes[theme].primary }"
-    >
+    <v-app-bar elevate-on-scroll fixed app class="nav px-10">
       <v-toolbar-title
         v-text="title"
         to="/"
