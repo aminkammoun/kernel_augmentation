@@ -28,6 +28,7 @@
         </div>
       </div>
     </div>
+    <Who />
     <Description />
     <Quote />
     <Footer />

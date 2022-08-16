@@ -96,24 +96,30 @@ body {
 }
 
 .nav {
-  background-color: var(--mid-black) !important;
+  background-color: var(--off-black) !important;
 }
 .main_container {
-  background-color: var(--mid-black);
+  background-color: var(--off-black);
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 100px;
 }
 .quote-container {
   display: flex;
   justify-content: center;
+  background-color: var(--off-black);
+  padding: 100px;
+}
+.quote {
   background-color: var(--mid-black);
+  border-radius: 2.5rem;
 }
 .navbar-span {
   letter-spacing: 1px;
   text-transform: capitalize;
 }
 .description-section {
-  background-color: var(--mid-black);
+  background-color: var(--off-black);
   background-position: center;
   background-size: cover;
 }
@@ -140,7 +146,7 @@ h6 {
   font-weight: 600;
 }
 .card-vue {
-  background-color: var(--off-black) !important ;
+  background-color: var(--mid-black) !important ;
   border-radius: 1rem !important ;
   padding-left: var(--x-small) !important ;
   padding-right: var(--x-small) !important ;
@@ -156,4 +162,37 @@ h6 {
   max-width: 700px;
   padding-left: 70px;
   padding-top: 20px;
+}
+.who-container {
+  background-color: var(--off-black) !important;
+  height: 30%;
+  padding: 100px;
+}
+.child-container {
+  width: 42%;
+}
+.who-h1 {
+  font-size: 64px;
+  display: inline-block;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.nd-child-container {
+  width: 50%;
+}
+.p-who {
+  width: 50%;
+}
+.who-btn {
+  background-color: var(--brand-quaternary) !important;
+}
+.btn-who-span {
+  margin: 10px;
+  color: var(--black);
+  text-transform: capitalize;
+}
+.shadow,
+.shadow-normal {
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 transparent),
+    var(--tw-ring-shadow, 0 0 transparent), var(--tw-shadow);
 }
