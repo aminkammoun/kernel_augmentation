@@ -1,6 +1,6 @@
 <template>
   <div class="quote-container">
-    <div>
+    <div class=" shadow-normal">
       <h1 style="font-weight: 900; font-size: 96px; margin-bottom: 32px">
         We believe...
       </h1>
