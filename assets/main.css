@@ -165,7 +165,7 @@ h6 {
 }
 .who-container {
   background-color: var(--off-black) !important;
-  height: 30%;
+  height: 20%;
   padding: 100px;
 }
 .child-container {
@@ -195,4 +195,21 @@ h6 {
 .shadow-normal {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 transparent),
     var(--tw-ring-shadow, 0 0 transparent), var(--tw-shadow);
+}
+.section-footer {
+  width: 150px;
+}
+.v-footer {
+  background-color: var(--mid-black) !important;
+  height: 12% !important;
+}
+.span-footer {
+  font-size: var(--p-footer);
+}
+.footer-icon {
+  color: var(--brand-ripe);
+}
+.section-feature {
+  width: 75%;
+  margin: auto;
 }

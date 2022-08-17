@@ -11,8 +11,7 @@
       </div>
       <div>
         <v-btn class="who-btn rounded-lg" style="font-weight: 700">
-          <span class="btn-who-span">
-          contact sales TEAM</span>
+          <span class="btn-who-span"> contact sales TEAM</span>
         </v-btn>
       </div>
     </div>
