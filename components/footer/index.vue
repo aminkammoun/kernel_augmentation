@@ -10,16 +10,16 @@
         </section>
       </div>
       <v-divider class="mt-5"></v-divider>
-      <div class="d-flex justify-space-between mt-5">
+      <div class="d-flex justify-space-between mt-10">
         <section style="width: 155px">
           <h1>Address</h1>
-          <span class="span-footer"
-            >Kernel Augmentation  89/6 31-202 somewhere in the word
+          <span class="span-footer mt-10"
+            >Kernel Augmentation 89/6 31-202 somewhere in the word
           </span>
         </section>
         <section>
           <h1>Industries</h1>
-          <v-btn text plain>
+          <v-btn text plain class="mt-15">
             <span class="navbar-span">Autonomous Robots</span></v-btn
           ><br />
           <v-btn text plain>
@@ -31,8 +31,10 @@
         </section>
         <section>
           <h1>contact</h1>
-          <span class="span-footer">contact@kernaug.xyz</span><br />
-          <span class="span-footer">support@kernaug.xyz</span>
+          <div class="mt-15">
+            <span class="span-footer">contact@kernaug.xyz</span><br />
+            <span class="span-footer">support@kernaug.xyz</span>
+          </div>
         </section>
       </div>
     </v-container></v-footer

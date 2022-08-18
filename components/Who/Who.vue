@@ -2,7 +2,7 @@
   <div class="who-container d-flex">
     <div class="child-container">
       <div>
-        <h1 class="who-h1">Custom robot design</h1>
+        <h1 class="who-h1 important">Custom robot design</h1>
         <p class="p-who">
           We have vast experience in designing and building autonomous mobile
           robots (AMR) dedicated, among other, for inspection, agriculture and
@@ -17,7 +17,7 @@
     </div>
     <div class="nd-child-container pa-15">
       <section class="d-flex justify-space-between mb-10">
-        <h1>Hardware</h1>
+        <h1 class="important">Hardware</h1>
         <p class="p-who">
           electronics design embedded software design mechanical design
           certification consulting
@@ -25,7 +25,7 @@
       </section>
       <v-divider></v-divider>
       <section class="d-flex justify-space-between mt-10">
-        <h1>Software</h1>
+        <h1 class="important">Software</h1>
         <p class="p-who">
           ROS software design simulation model design robot connectivity fleet
           management systems

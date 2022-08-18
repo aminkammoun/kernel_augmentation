@@ -210,6 +210,22 @@ h6 {
   color: var(--brand-ripe);
 }
 .section-feature {
-  width: 75%;
+  width: 65%;
   margin: auto;
+}
+.feature-container {
+  background-color: var(--off-black) !important;
+  height: 25%;
+}
+.benefits-section {
+  width: 50%;
+}
+.elements-feature p {
+  color: var(--slight-grey);
+}
+.h3{
+  color: var(--divider-light);
+}
+.important{
+  color: var(--divider-light);
 }
