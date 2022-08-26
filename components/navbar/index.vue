@@ -13,12 +13,12 @@
       <v-btn text plain to="/contact">
         <span class="navbar-span">contact us</span>
       </v-btn>
-      <v-btn icon @click="switchTheme">
+      <!-- <v-btn icon @click="switchTheme">
         <v-icon v-if="!this.$vuetify.theme.isDark"
           >mdi-moon-waning-crescent</v-icon
         >
         <v-icon v-else>mdi-weather-sunny</v-icon>
-      </v-btn>
+      </v-btn> -->
     </v-app-bar>
   </div>
 </template>

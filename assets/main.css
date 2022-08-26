@@ -223,9 +223,13 @@ h6 {
 .elements-feature p {
   color: var(--slight-grey);
 }
-.h3{
+.h3 {
   color: var(--divider-light);
 }
-.important{
+.important {
   color: var(--divider-light);
+}
+.btns {
+  color: var(--black) !important ;
+  background-color: var(--brand-almost-ripe) !important;
 }
