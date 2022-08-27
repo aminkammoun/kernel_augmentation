@@ -14,7 +14,10 @@
             class="text-capitalize textbase--text mt-5 text-body-1"
             >explore</v-btn
           >
-          <v-btn large class="text-capitalize mt-5 text-body-1"
+          <v-btn
+            large
+            class="text-capitalize mt-5 text-body-1 black--text"
+            color="#ffae33"
             >our products</v-btn
           >
         </div>
