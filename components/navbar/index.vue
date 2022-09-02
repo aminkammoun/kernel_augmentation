@@ -7,11 +7,23 @@
         style="font-size: 35px; font-weight: 950"
       />
       <v-spacer />
-      <v-btn text plain to="/aboutus">
-        <span class="navbar-span">about us</span>
+      <v-btn text plain to="/">
+        <span class="navbar-span">home</span>
       </v-btn>
-      <v-btn text plain to="/contact">
-        <span class="navbar-span">contact us</span>
+      <v-btn text plain to="/Robots">
+        <span class="navbar-span">Robots</span>
+      </v-btn>
+      <v-btn text plain to="/Embedded">
+        <span class="navbar-span">Embedded System Solutions</span>
+      </v-btn>
+      <v-btn text plain to="/customers">
+        <span class="navbar-span">Customers</span>
+      </v-btn>
+      <v-btn text plain to="/company">
+        <span class="navbar-span">Company</span>
+      </v-btn>
+      <v-btn text plain to="/blog">
+        <span class="navbar-span">BLOG</span>
       </v-btn>
       <!-- <v-btn icon @click="switchTheme">
         <v-icon v-if="!this.$vuetify.theme.isDark"

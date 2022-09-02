@@ -239,3 +239,12 @@ h6 {
   color: var(--black) !important ;
   background-color: var(--brand-almost-ripe) !important;
 }
+.error-container {
+  background-color: var(--off-black);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+}
+.error-card{
+  
+}

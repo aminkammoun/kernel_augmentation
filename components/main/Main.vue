@@ -5,8 +5,8 @@
         <div style="flex: 0 0 50%; max-width: 700px" class="text-center">
           <h1 class="textbase--text">Kernel Augmentation</h1>
           <p class="textbase--text">
-            a pioneer in robot automation industry, will offer products and
-            services with better performance, quality, and reliability.
+            Some think [augmentation] is the end of us all, We think it will
+            lead us to paradise.
           </p>
           <v-btn
             outlined
